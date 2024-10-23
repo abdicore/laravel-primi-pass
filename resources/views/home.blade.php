@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1 class="text-center">Home </h1>
+        <h1 class="text-center fw-bold mt-5">{{ $titolo }}</h1>
     </header>
 
 

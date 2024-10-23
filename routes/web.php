@@ -16,3 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/home', function () {
+
+    $tittle = "Home page";
+    $lista = [
+        "pane",
+        "latte",
+        "carne",
+        "yogurt"
+    ];
+
+    return view('home',
+    [
+        "titolo" => $tittle,
+    ]
+
+);
+});
