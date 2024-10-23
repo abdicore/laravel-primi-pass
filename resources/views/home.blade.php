@@ -12,6 +12,18 @@
     <header>
         <h1 class="text-center fw-bold mt-5">{{ $titolo }}</h1>
     </header>
+    <main class="container">
+        <h2> Lista</h2>
+        <ul>
+            @foreach ($lista as $listItem)
+
+            <li>
+                {{ $listItem }}
+            </li>
+            @endforeach
+
+        </ul>
+    </main>
 
 
 

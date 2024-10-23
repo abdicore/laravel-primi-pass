@@ -30,7 +30,8 @@ Route::get('/home', function () {
     return view('home',
     [
         "titolo" => $tittle,
-    ]
+        "lista" => $lista,
+            ]
 
 );
 });
